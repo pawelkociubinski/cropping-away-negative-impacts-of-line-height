@@ -2,6 +2,16 @@ Cropping away negative impacts of line height
 based on https://medium.com/eightshapes-llc/cropping-away-negative-impacts-of-line-height-84d744e016ce
 
 ```
+import styled from "styled-components";
+import { textCrop } from "../path-to-textCrop"
+
+export const Label = styled.span`
+	color: #D83C4C;
+	${textCrop};
+`
+```
+
+```
 import { css } from "styled-components";
 
 export const textCrop = (() => {
