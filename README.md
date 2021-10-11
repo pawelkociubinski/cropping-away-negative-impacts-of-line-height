@@ -6,8 +6,8 @@ import styled from "styled-components";
 import { textCrop } from "../path-to-textCrop"
 
 export const Label = styled.span`
-	color: #D83C4C;
-	${textCrop};
+  color: #D83C4C;
+  ${textCrop};
 `
 ```
 
